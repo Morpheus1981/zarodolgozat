@@ -1,0 +1,78 @@
+body{
+    background-color: #b4e9f0;
+    padding: 80px 0px 0px 0px;
+
+}
+
+.tartalmazo {
+    width:70%;
+    margin: auto;
+    background-color: white;
+    
+    box-shadow:15px 15px 15px 5px;
+
+}
+
+.bg-light {
+    background-color: #6fa3d6!important;
+}
+
+
+.form-group input {
+    opacity: 0.8;
+
+}
+
+
+.kozep {
+
+    background-image: url("/picture/hatterk.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.belepes  {
+    height: 200px;
+}
+
+
+/* nav {
+    background-color: rgb(253, 190, 107);
+    height: 200px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+
+}
+nav ul li {
+    padding-top: 20px;;
+    display: flex;
+    flex-direction: column;
+}
+nav ul {
+    background-color: violet;
+
+} */
+
+
+footer{
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding:10px;
+    margin: 20px 0px 0px 0px ;
+
+}
+
+@media screen and (max-width: 690px) {
+    body {
+      background-color: black;
+      min-width: 690px;
+    }
+  }
